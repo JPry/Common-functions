@@ -13,7 +13,11 @@ function esp_change_login_title( $message ) {
 	return get_bloginfo( 'description' );
 }
 
-// Add our own menu to the Admin bar
+/* Add our own menu to the Admin bar
+ *
+ * NOTE: $wp_admin_bar->add_node() requires WordPress 3.3 and later. If
+ * you are using an earlier version, use $wp_admin_bar->add_menu() instead
+ */
 add_action( 'admin_bar_menu', 'esp_quick_access_menu', 75 );
 function esp_quick_access_menu( $wp_admin_bar ) {
     $wp_admin_bar->add_node( array(

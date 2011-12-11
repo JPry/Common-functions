@@ -1,0 +1,25 @@
+=== ESP Common functions ===
+Author:  Jeremy Pry
+Version: 0.1
+Tested up to: 3.3 RC3
+ 
+== Description ==
+
+These are some common functions to include in new Genesis/WordPress themes.
+
+== Installation ==
+
+This script is easy to install.
+
+1. Place esp-common-functions.php in your theme files.
+2. Include that esp-common-functions.php in your functions.php file
+
+== TODO ==
+
+== Changelog ==
+
+0.1
+
+* Added WP Login Header (props @norcross)
+* Added WP Login Header Link (props @norcross)
+* Added Quick Access menu to WP Toolbar

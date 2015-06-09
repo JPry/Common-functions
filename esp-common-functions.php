@@ -58,7 +58,3 @@ function esp_quick_access_menu( $wp_admin_bar ) {
 
 // I really don't see the need for the Genesis Readme menu
 remove_theme_support( 'genesis-readme-menu' );
-
-
-
-?>
